@@ -1,0 +1,75 @@
+a:link {
+	color: #000000; 
+	text-decoration: none;
+	text-transform: uppercase;
+	font-weight: bold; 
+}
+
+body{
+	background-image:url("Background.png");
+	background-size: 100%;
+	font-family:'Open Sans' sans-serif;
+	color: black;
+	text-align: center;
+}
+
+#search input[type="text"] {
+    background: no-repeat 10px 6px #444;
+    border: none;
+    font: bold 12px Arial,Helvetica,Sans-serif;
+    color: #FFF;
+    width: 150px;
+    padding: 6px 15px 6px 35px;
+    /*-webkit-border-radius: 20px;*/
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    text-shadow: 0 2px 2px rgba(0, 0, 0, 0.3);
+    /*-webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.1), 0 1px 3px rgba(0, 0, 0, 0.2) inset;*/
+    -moz-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.1), 0 1px 3px rgba(0, 0, 0, 0.2) inset;
+    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.1), 0 1px 3px rgba(0, 0, 0, 0.2) inset;
+    -webkit-transition: all 0.7s ease 0s;
+    -moz-transition: all 0.7s ease 0s;
+    -o-transition: all 0.7s ease 0s;
+    transition: all 0.7s ease 0s;
+    outline: none;
+    }
+
+#search input[type="text"]:focus {
+    width: 300px;
+    }
+
+#results {
+	padding-top: 50px;
+	font-size: 25px;
+	overflow: auto;
+	max-height: 600px;
+}
+
+#results .artist {
+	clear: both;
+	margin-bottom: 150px;
+}
+
+#results .img{
+	padding-right: 30px;
+	-webkit-border-radius: 40px;
+	border-radius: 5px;
+	float: right;
+}
+
+#results .img img{
+	-webkit-border-radius: 40px;
+	border-radius: 10px;
+	max-height: 150px;
+}
+
+#results .link a{	
+	position: relative;
+	float: left;
+	color: white;
+	background-color: black;
+	padding-right: 20px;
+	padding-left: 20px;
+	margin-left: 30px;
+	top: 30px;
+}
